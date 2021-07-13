@@ -131,6 +131,8 @@ twilio phone-numbers:update [PN sid or E.164] --sms-url http://localhost:3000/pa
 
 This will generate a url similar to: `https://cd2ef758.ngrok.io`.
 
+Alternatively, set up an Ngrok tunnel manually using `ngrok http 3000` or `ngrok http -subdomain=XXX 3000` and replace the localhost above with the ngrok url
+
 9. Navigate to [http://localhost:3000](http://localhost:3000) to see some sample credit card details to test the payment.
 
 10. You can also navigate to [http://localhost:3000/config](http://localhost:3000/config) to override the default payment details.
